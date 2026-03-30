@@ -30,7 +30,7 @@ spec:
             failureThreshold: 5
           readinessProbe:
             tcpSocket:
-              port: 8080
+              port: 80
             initialDelaySeconds: 20
             timeoutSeconds: 1
             periodSeconds: 5
