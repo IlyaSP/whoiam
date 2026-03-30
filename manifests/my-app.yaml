@@ -20,7 +20,7 @@ spec:
             - containerPort: 80
           livenessProbe:
             httpGet:
-              path: /
+              path: /test
               port: 80
               scheme: HTTP
             initialDelaySeconds: 20
